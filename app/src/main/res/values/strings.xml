@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rasel\'s Hisab Pro</string>
+    <string name="app_tagline">Track • Understand • Improve · সম্পূর্ণ Offline</string>
+    <string name="income_this_month">এই মাসের আয়</string>
+    <string name="expense_this_month">এই মাসের খরচ</string>
+    <string name="balance">অবশিষ্ট</string>
+    <string name="add_new_transaction">＋ নতুন হিসাব</string>
+    <string name="amount">টাকার পরিমাণ</string>
+    <string name="expense">খরচ</string>
+    <string name="income">আয়</string>
+    <string name="category">খাত</string>
+    <string name="date">তারিখ</string>
+    <string name="note">কী জন্য? (ঐচ্ছিক)</string>
+    <string name="save">সংরক্ষণ করুন</string>
+    <string name="todays_recent">আজকের / সাম্প্রতিক হিসাব</string>
+    <string name="reports">📊 রিপোর্ট</string>
+    <string name="no_transactions">এখনও কোনো হিসাব নেই।</string>
+    <string name="home">🏠 Home</string>
+    <string name="report">📊 Reports</string>
+    <string name="settings">⚙️ Settings</string>
+    <string name="custom_categories">🗂️ নিজের Category</string>
+    <string name="backup_restore">💾 Backup & Transfer</string>
+    <string name="backup_button">Backup File</string>
+    <string name="restore_button">Restore</string>
+    <string name="clear_all">সব হিসাব মুছুন</string>
+</resources>

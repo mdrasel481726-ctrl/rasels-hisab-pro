@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:marginBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rasel's Hisab Pro"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:spacing="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="এই মাসের আয়"
+                    android:textSize="12sp"
+                    android:textColor="@color/muted" />
+
+                <TextView
+                    android:id="@+id/income_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="৳0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="এই মাসের খরচ"
+                    android:textSize="12sp"
+                    android:textColor="@color/muted" />
+
+                <TextView
+                    android:id="@+id/expense_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="৳0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@drawable/card_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="অবশিষ্ট"
+                    android:textSize="12sp"
+                    android:textColor="@color/muted" />
+
+                <TextView
+                    android:id="@+id/balance_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="৳0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:background="@drawable/card_bg"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="＋ নতুন হিসাব"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/amount_input"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:inputType="numberDecimal"
+                android:hint="টাকার পরিমাণ"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp" />
+
+            <Spinner
+                android:id="@+id/type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp" />
+
+            <Spinner
+                android:id="@+id/category_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/date_input"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:inputType="date"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/note_input"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:hint="কী জন্য? (ঐচ্ছিক)"
+                android:padding="12dp"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="সংরক্ষণ করুন"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
