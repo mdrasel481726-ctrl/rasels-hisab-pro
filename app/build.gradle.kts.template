@@ -1,0 +1,13 @@
+# signing.properties ফাইল তৈরির জন্য টেমপ্লেট
+# এটি কপি করে local.properties বা signing.properties নাম দিন
+
+# Release Key Configuration
+RELEASE_STORE_FILE=../release-key.jks
+RELEASE_STORE_PASSWORD=আপনার_জেকেএস_পাসওয়ার্ড
+RELEASE_KEY_ALIAS=release
+RELEASE_KEY_PASSWORD=আপনার_কী_পাসওয়ার্ড
+
+# নোট: 
+# 1. এটি একটি টেমপ্লেট ফাইল
+# 2. আপনার প্রকৃত পাসওয়ার্ড দিয়ে প্রতিস্থাপন করুন
+# 3. এটি Git এ কমিট করবেন না (.gitignore এ যোগ করুন)

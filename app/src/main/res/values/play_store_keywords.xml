@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Play Store Search Keywords -->
+    <string-array name="keywords">
+        <item>অ্যাপ</item>
+        <item>খরচ ট্র্যাকার</item>
+        <item>বাজেট অ্যাপ</item>
+        <item>অর্থ ব্যবস্থাপনা</item>
+        <item>হিসাব</item>
+        <item>টাকা ব্যবস্থাপনা</item>
+        <item>আয় ট্র্যাকিং</item>
+        <item>খরচ বিশ্লেষণ</item>
+        <item>বাংলা অ্যাপ</item>
+        <item>অফলাইন অ্যাপ</item>
+        <item>ফিনান্স অ্যাপ</item>
+        <item>ব্যক্তিগত বাজেট</item>
+        <item>ব্যয় পরিকল্পনা</item>
+    </string-array>
+</resources>
