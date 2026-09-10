@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Play Store Configuration -->
+    <string name="play_store_app_name">Rasel\'s Hisab Pro</string>
+    <string name="play_store_short_desc">অফলাইন খরচ ট্র্যাকার - আয় এবং খরচ পরিচালনা করুন</string>
+    <string name="play_store_full_desc">আপনার সমস্ত আর্থিক লেনদেন একটি সুন্দর এবং সহজ অ্যাপে ট্র্যাক করুন।
+
+✨ প্রধান বৈশিষ্ট্য:
+• সম্পূর্ণ অফলাইন - ইন্টারনেট প্রয়োজন নেই
+• আয় এবং খরচ ট্র্যাকিং
+• কাস্টম ক্যাটাগরি তৈরি করুন
+• মাসিক রিপোর্ট এবং বিশ্লেষণ
+• ব্যাকআপ এবং রিস্টোর ফিচার
+• ১০০% বাংলা ভাষায় উপলব্ধ
+• কোনো বিজ্ঞাপন নেই
+• কোনো প্রাইভেসি সমস্যা নেই
+
+💰 ব্যবহারকারীরা বলেন:
+"আমার সমস্ত খরচ এক জায়গায় দেখতে পারি"
+"খুবই সহজ এবং দ্রুত অ্যাপ"
+"বাংলা ভাষায় পাওয়া যাওয়ায় খুব ভালো"
+
+🎯 নিজের আর্থিক লক্ষ্য অর্জন করুন আমাদের সাথে!
+
+প্রশ্ন বা পরামর্শ? আমাদের সাথে যোগাযোগ করুন।</string>
+    <string name="play_store_privacy_url">https://github.com/mdrasel481726-ctrl/rasels-hisab-pro/blob/main/PRIVACY_POLICY.md</string>
+    <string name="play_store_contact_email">mdrasel481726@gmail.com</string>
+</resources>
